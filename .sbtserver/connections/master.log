@@ -1,0 +1,40 @@
+New log file opened at Mon Apr 10 14:47:59 IST 2017 by 11592@HP10
+Taking next connection to: 60496
+New client attempting to connect on port: 60497-60496
+  Address = /192.168.33.1:60496
+This client on port 60497 has uuid 56c36758-853b-42cb-b586-6d5e516acff3 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-56c36758-853b-42cb-b586-6d5e516acff3
+Taking next connection to: 60496
+New client attempting to connect on port: 60498-60496
+  Address = /192.168.33.1:60496
+Handshake exception on socket: 60498
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 60496
+New client attempting to connect on port: 60499-60496
+  Address = /192.168.33.1:60496
+This client on port 60499 has uuid 3e78e8bd-5d9f-473d-90a1-abdee4f8c0a6 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-56c36758-853b-42cb-b586-6d5e516acff3, activator-3e78e8bd-5d9f-473d-90a1-abdee4f8c0a6
+Taking next connection to: 60496
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60496
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60496
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 60496

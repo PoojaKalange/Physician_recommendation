@@ -1,0 +1,13 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+GET    /                            controllers.Applications.index
+ 
+GET    /model                       controllers.Applications.model
+GET    /df                          controllers.Applications.df
+#GET   /userID                      controllers.Applications.recomend_user(id: Option[Int])
+GET    /recDoctor                   controllers.Applications.recDoctor(patient_ID:Int,Facility_ID:String)
+
+

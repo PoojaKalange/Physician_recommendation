@@ -1,0 +1,12 @@
+2017-04-04 14:57:38,686 [WARN] from org.apache.hadoop.util.NativeCodeLoader in ForkJoinPool-1-worker-1 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-04-04 14:58:00,434 [WARN] from org.apache.spark.sql.Column in ForkJoinPool-1-worker-1 - Constructing trivially true equals predicate, 'patientguid#1 = patientguid#1'. Perhaps you need to use aliases.
+2017-04-04 14:58:30,526 [WARN] from org.apache.spark.util.Utils in ForkJoinPool-1-worker-1 - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2017-04-04 15:06:27,070 [WARN] from com.github.fommil.netlib.BLAS in Executor task launch worker-6 - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2017-04-04 15:06:27,071 [WARN] from com.github.fommil.netlib.BLAS in Executor task launch worker-6 - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2017-04-04 15:06:28,965 [WARN] from com.github.fommil.netlib.LAPACK in Executor task launch worker-8 - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2017-04-04 15:06:28,966 [WARN] from com.github.fommil.netlib.LAPACK in Executor task launch worker-8 - Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
+2017-04-04 15:06:53,498 [WARN] from org.apache.spark.sql.execution.CacheManager in ForkJoinPool-1-worker-1 - Asked to cache already cached data.
+2017-04-04 15:08:38,416 [INFO] from play.api.Play in ForkJoinPool-1-worker-1 - Application started (Dev)
+2017-04-04 16:23:56,941 [WARN] from org.apache.spark.HeartbeatReceiver in dispatcher-event-loop-1 - Removing executor driver with no recent heartbeats: 1446419 ms exceeds timeout 120000 ms
+2017-04-04 16:23:57,963 [ERROR] from org.apache.spark.scheduler.TaskSchedulerImpl in dispatcher-event-loop-1 - Lost executor driver on localhost: Executor heartbeat timed out after 1446419 ms
+2017-04-04 16:23:59,489 [WARN] from org.apache.spark.SparkContext in kill-executor-thread - Killing executors is only supported in coarse-grained mode
