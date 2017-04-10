@@ -1,5 +1,7 @@
 name := """Spark_Play_sbt"""
 
+herokuAppName in Compile := "recommendationspark"
+
 version := "1.0-SNAPSHOT"
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
