@@ -29,7 +29,7 @@ object SparkCommon {
  
 
     //lazy val spark = SparkSession.builder().appName("SparkSession").master("spark://ubuntu-spark:7077").getOrCreate()
-    lazy val spark = SparkSession.builder().appName("SparkSession").master("local[*]").getOrCreate()
+    lazy val spark = SparkSession.builder().appName("SparkSession").master("local[*]").config("spark.driver.memory", "2g").getOrCreate()
  
     // For implicit conversions like converting RDDs to DataFrames
     import spark.implicits._
